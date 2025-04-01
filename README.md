@@ -174,8 +174,6 @@ QuantumIT-Assignment/
 ├── server/
 │   ├── models/
 │   │   ├── User/
-│   ├── routes/
-│   │   ├── auth/
 │   │   └── index.js
 │   └── .env
 ├── screenshots/
@@ -195,3 +193,33 @@ Quantum IT Innovation
 
 ## License
 This project is created as part of the Full Stack Development Intern position assignment at Quantum IT Innovation.
+
+## Deployment
+
+### Backend Deployment
+1. Deploy your backend to a hosting service (e.g., Render, Railway, or Vercel)
+2. Set up the following environment variables in your backend deployment:
+   ```
+   MONGODB_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret
+   PORT=5000
+   ```
+
+### Frontend Deployment
+1. Create a `.env.production` file in your frontend directory with your backend URL:
+   ```
+   VITE_API_URL=https://your-backend-url.vercel.app
+   ```
+2. Deploy to Vercel:
+   - Push your code to GitHub
+   - Connect your repository to Vercel
+   - Add the following environment variable in Vercel:
+     - `VITE_API_URL`: Your deployed backend URL
+   - Deploy your application
+
+### Important Notes
+- Make sure your backend is deployed and accessible before deploying the frontend
+- The backend URL in `.env.production` should be your actual deployed backend URL
+- CORS should be properly configured in your backend to accept requests from your frontend domain
+- For local development, use `localhost:5001` as the API URL
+- For production, use your deployed backend URL
