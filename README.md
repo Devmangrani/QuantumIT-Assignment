@@ -82,8 +82,8 @@ PORT=5000
 *Registration form with required fields*
 
 ### Dashboard
-![Dashboard](screenshorts/Dashboard 1.png)
-![Dashboard](screenshorts/Dashboard 2.png)
+![Dashboard](screenshorts/Dashboard1.png)
+![Dashboard](screenshorts/Dashboard2.png)
 *User management dashboard with search and filter options*
 
 ## API Endpoints
