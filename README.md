@@ -80,6 +80,21 @@ cd frontend
 npm start
 ```
 
+## Screenshots
+
+### Login Page
+![Login Page](screenshorts/Login.png)
+*Login interface with email and password fields*
+
+### Registration Page
+![Registration Page](screenshorts/Register.png)
+*Registration form with required fields*
+
+### Dashboard
+![Dashboard](screenshorts/Dashboard 1.png)
+![Dashboard](screenshorts/Dashboard 2.png)
+*User management dashboard with search and filter options*
+
 ## API Endpoints
 
 ### Authentication
@@ -93,6 +108,34 @@ npm start
   dateOfBirth: Date,
   email: String,
   password: String (hashed)
+}
+```
+
+## MongoDB Schema
+![MongoDB Schema](screenshorts/Mongodb.png)
+### User Collection
+```javascript
+{
+  _id: ObjectId,
+  name: String,
+  dateOfBirth: Date,
+  email: String,
+  password: String,
+  createdAt: Date,
+  updatedAt: Date
+}
+```
+
+### Sample MongoDB Document
+```javascript
+{
+  "_id": ObjectId("..."),
+  "name": "John Doe",
+  "dateOfBirth": ISODate("1990-01-01"),
+  "email": "john@example.com",
+  "password": "$2b$10$...", // Hashed password
+  "createdAt": ISODate("2024-03-31T10:00:00Z"),
+  "updatedAt": ISODate("2024-03-31T10:00:00Z")
 }
 ```
 
@@ -144,6 +187,10 @@ QuantumIT-Assignment/
 │   │   ├── routes/
 │   │   └── server.js
 │   └── package.json
+├── screenshots/
+│   ├── login.png
+│   ├── register.png
+│   └── dashboard.png
 └── README.md
 ```
 
@@ -153,6 +200,10 @@ Dev Mangrani
 ## Made for
 Quantum IT Innovation
 
+## Contact
+For any queries or clarifications, please contact:
+- Email: harmeet@quantumitinnovation.com
+- Phone: 8082114923
 
 ## License
 This project is created as part of the Full Stack Development Intern position assignment at Quantum IT Innovation.
