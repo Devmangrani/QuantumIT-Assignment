@@ -164,23 +164,24 @@ PORT=5000
 ## Project Structure
 ```
 QuantumIT-Assignment/
-├── frontend/
+├
 │   ├── src/
 │   │   ├── components/
 │   │   ├── styles/
 │   │   ├── utils/
 │   │   └── App.js
 │   └── package.json
-├── backend/
-│   ├── src/
-│   │   ├── controllers/
-│   │   ├── models/
-│   │   ├── routes/
-│   │   └── server.js
-│   └── package.json
+├── server/
+│   ├── models/
+│   │   ├── User/
+│   ├── routes/
+│   │   ├── auth/
+│   │   └── index.js
+│   └── .env
 ├── screenshots/
 │   ├── login.png
 │   ├── register.png
+|   ├── MongoDb.png
 │   └── dashboard.png
 └── README.md
 ```
