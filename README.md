@@ -53,12 +53,13 @@ cd QuantumIT-Assignment
 2. Install dependencies for both frontend and backend
 ```bash
 # Install frontend dependencies
-cd frontend
 npm install
+npm run dev
 
 # Install backend dependencies
-cd ../backend
+cd server
 npm install
+npm run server
 ```
 
 3. Set up environment variables
@@ -69,16 +70,6 @@ JWT_SECRET=your_jwt_secret
 PORT=5000
 ```
 
-4. Start the application
-```bash
-# Start backend server
-cd backend
-npm start
-
-# Start frontend development server
-cd frontend
-npm start
-```
 
 ## Screenshots
 
@@ -200,10 +191,6 @@ Dev Mangrani
 ## Made for
 Quantum IT Innovation
 
-## Contact
-For any queries or clarifications, please contact:
-- Email: harmeet@quantumitinnovation.com
-- Phone: 8082114923
 
 ## License
 This project is created as part of the Full Stack Development Intern position assignment at Quantum IT Innovation.
