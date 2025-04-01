@@ -153,10 +153,6 @@ Dev Mangrani
 ## Made for
 Quantum IT Innovation
 
-## Contact
-For any queries or clarifications, please contact:
-- Email: harmeet@quantumitinnovation.com
-- Phone: 8082114923
 
 ## License
 This project is created as part of the Full Stack Development Intern position assignment at Quantum IT Innovation.
